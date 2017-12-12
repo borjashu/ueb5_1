@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1511939497 source:/home/borja/info2/ueb4/date_time.c
+	<stdio.h>
+	"date_time.h"
+
+1511911663 /home/borja/info2/ueb4/date_time.h
+	<stdio.h>
+	"datastructure.h"
+
+1511981079 /home/borja/info2/ueb4/datastructure.h
+
+1511987974 source:/home/borja/info2/ueb4/main.c
+	<stdio.h>
+	<stdlib.h>
+	"datastructure.h"
+	"date_time.h"
+	"database.h"
+	"tools.h"
+	"teams.h"
+	"menu.h"
+
+1511961617 /home/borja/info2/ueb4/tools.h
+
+1509049513 /home/borja/info2/ueb4/teams.h
+
+1509047756 /home/borja/info2/ueb4/menu.h
+	<stdio.h>
+	"datastructure.h"
+
+1510743663 source:/home/borja/info2/ueb4/menu.c
+	<stdio.h>
+	<stdlib.h>
+	"tools.h"
+
+1511962062 source:/home/borja/info2/ueb4/tools.c
+	<stdio.h>
+	<string.h>
+	"tools.h"
+	"datastructure.h"
+
+1511988128 source:/home/borja/info2/ueb4/database.c
+	<stdio.h>
+	"datastructure.h"
+
+1511964371 source:/home/borja/info2/ueb4/teams.c
+	"datastructure.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"datastructure.h"
+	"tools.h"
+
+1511987759 /home/borja/info2/ueb4/database.h
+

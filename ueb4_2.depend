@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1513098012 source:/home/borja/info2/ueb4_2/database.c
+	<stdio.h>
+	"datastructure.h"
+
+1511981079 /home/borja/info2/ueb4_2/datastructure.h
+
+1512120960 source:/home/borja/info2/ueb4_2/date_time.c
+	<stdio.h>
+	"date_time.h"
+
+1511911663 /home/borja/info2/ueb4_2/date_time.h
+	<stdio.h>
+	"datastructure.h"
+
+1512120276 source:/home/borja/info2/ueb4_2/menu.c
+	<stdio.h>
+	<stdlib.h>
+	"tools.h"
+
+1511961617 /home/borja/info2/ueb4_2/tools.h
+
+1513098297 source:/home/borja/info2/ueb4_2/teams.c
+	"datastructure.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"datastructure.h"
+	"tools.h"
+
+1512122784 source:/home/borja/info2/ueb4_2/tools.c
+	<stdio.h>
+	<string.h>
+	"tools.h"
+	"datastructure.h"
+
+1512119905 source:/home/borja/info2/ueb4_2/main.c
+	<stdio.h>
+	<stdlib.h>
+	"datastructure.h"
+	"date_time.h"
+	"database.h"
+	"tools.h"
+	"teams.h"
+	"menu.h"
+
+1511990273 /home/borja/info2/ueb4_2/database.h
+
+1513098297 /home/borja/info2/ueb4_2/teams.h
+
+1509047756 /home/borja/info2/ueb4_2/menu.h
+	<stdio.h>
+	"datastructure.h"
+
+1513099216 source:/home/borja/info2/ueb4_2/sort.c
+	<stdio.h>
+	<string.h>
+	"datastructure.h"
+	"tools.h"
+	"sort.h"
+	"teams.h"
+
+1513111093 /home/borja/info2/ueb4_2/sort.h
+

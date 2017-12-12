@@ -1,0 +1,121 @@
+<Data>
+ <Team>
+ <Name>1. FC Bayern Muenchen</Name>
+ <Trainer>Jupp Heynckes</Trainer>
+ <Playernumber>6</Playernumber>
+  <Player>
+   <Name>Max Mustermann</Name>
+   <TricotNr>99</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>31.12.2000</Birthday>
+  </Player>
+  <Player>
+   <Name>Robert Lewandowski</Name>
+   <TricotNr>9</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>21.08.1988</Birthday>
+  </Player>
+  <Player>
+   <Name>Jerome Boateng</Name>
+   <TricotNr>17</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>03.09.1988</Birthday>
+  </Player>
+  <Player>
+   <Name>David Alaba</Name>
+   <TricotNr>27</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>24.06.1992</Birthday>
+  </Player>
+  <Player>
+   <Name>Manuel Neuer</Name>
+   <TricotNr>1</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>27.03.1986</Birthday>
+  </Player>
+  <Player>
+   <Name>Christian Fruechtl</Name>
+   <TricotNr>36</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>28.01.2000</Birthday>
+  </Player>
+ </Team>
+
+
+ <Team>
+ <Name>RB Leipzig</Name>
+ <Playernumber>2</Playernumber>
+  <Player>
+   <Name>Timo Werner</Name>
+   <TricotNr>11</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>06.03.1996</Birthday>
+  </Player>
+  <Player>
+   <Name>Peter Gulacsi</Name>
+   <TricotNr>32</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>06.05.1990</Birthday>
+  </Player>
+ </Team>
+
+
+ <Team>
+ <Name>Musterteam</Name>
+ <Trainer>TestTrainer</Trainer>
+ <Playernumber>2</Playernumber>
+  <Player>
+   <Name>Testspieler2</Name>
+   <TricotNr>17</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>18.08.1991</Birthday>
+  </Player>
+  <Player>
+   <Name>TestSpieler1</Name>
+   <TricotNr>11</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>17.07.1990</Birthday>
+  </Player>
+ </Team>
+
+
+ <Team>
+ <Name>Musterteam2</Name>
+ <Trainer>Muster Trainer</Trainer>
+ <Playernumber>2</Playernumber>
+  <Player>
+   <Name>Muster Spieler1</Name>
+   <TricotNr>17</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>17.06.1891</Birthday>
+  </Player>
+  <Player>
+   <Name>Muster Spieler2</Name>
+   <TricotNr>21</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>00.00.   0</Birthday>
+  </Player>
+ </Team>
+
+
+ <Team>
+ <Name>Hertha BSC</Name>
+ <Trainer>Pal Dardai</Trainer>
+ <Playernumber>2</Playernumber>
+  <Player>
+   <Name>Fabian Lustenberger</Name>
+   <TricotNr>4</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>04.04.1984</Birthday>
+  </Player>
+  <Player>
+   <Name>Thomas Kraft</Name>
+   <TricotNr>1</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>03.03.1983</Birthday>
+  </Player>
+ </Team>
+
+
+</Data>
+
