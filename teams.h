@@ -8,7 +8,7 @@ void deletePlayer();
 
 void searchPlayer();
 
-void sortTeams();
+//void sortTeams();
 
 void listTeams();
 

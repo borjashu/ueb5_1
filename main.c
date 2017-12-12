@@ -19,12 +19,14 @@ int main()
    int choise;
    int goout = 0;
 
-   char titel[] = "Mannschaften-Verwaltung Beta";
+  // char titel[] = "Mannschaften-Verwaltung Beta";
    char *mpunkte[mpunktezahl] = {"Neue Mannschaft anlegen","Spieler hinzufuegen","Spieler loeschen","Mannschaft loeschen","Suchen","Sortieren","Auflisten","Programm beenden"};
 
    do
    {
-      choise = getMenu(mpunktezahl,titel,mpunkte);
+      printf("Mannschaften-Verwaltung Beta");
+      choise = getMenu(mpunktezahl,mpunkte);
+
       switch(choise)
       {
          case 1: createTeam();

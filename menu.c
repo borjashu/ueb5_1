@@ -4,7 +4,7 @@
 /**************************************************
  *  Gibt das Titel und Menue Punkte aus aus       *
 **************************************************/
-int getMenu (int mpunktezahl,char titel[],const char **mpunkte)
+int getMenu (int mpunktezahl,const char **mpunkte)
 {
 int i;
 int eingabe = 0;
@@ -13,7 +13,7 @@ int ok      = 0;
    {
       clearScreen();
       fflush(stdin);
-      printf("%s\n",titel);
+    //  printf("%s\n",titel);
       printLine('-', 50);
 
       for(i = 0;i <= mpunktezahl - 1;i++)

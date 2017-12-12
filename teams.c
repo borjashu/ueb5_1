@@ -6,7 +6,7 @@
 #include "tools.h"
 
 int TeamCounter = 0;
-
+int sort = 0;
 TTeam Teams[100];
 
 /***************************************************************************
@@ -80,10 +80,7 @@ void searchPlayer()
     printf("searchPlayer\n");
 }
 
-void sortTeams()
-{
-    printf("sortTeams\n");
-}
+
 /***************************************************************************
 *  listTeams
 *  Speichert Listet eine Manschaften Auf
@@ -147,16 +144,16 @@ int out()
 }
 
 
-void sortCDs()
+void sortTeams()
 {
-    char menuepunkte[][MENUPUNKTCHARS] = {"Titel", "Erscheinungsjahr", "Anzahl der Lieder"};
-	char richtung[][MENUPUNKTCHARS] = {"Auf (0-9 / A-Z)", "Ab (9-0 / Z-A)"};
+   char * menuepunkte[] = {"Titel", "Erscheinungsjahr", "Anzahl der Lieder"};
+	char * richtung[] = {"Auf (0-9 / A-Z)", "Ab (9-0 / Z-A)"};
 	int  r = 0;
 
-	printLine('=', printf("\nSortieren der CDs\n")-2);
+	printLine('=', printf("\nSortieren der Teams\n")-2);
 	printf("\nIn welche Richtung soll Sortiert werden?\n");
 
-	int i=getMenu(richtung, 2);
+	int i=getMenu(2, richtung);
 	if(i)
 		r = 1;
 
@@ -164,7 +161,7 @@ void sortCDs()
 	printLine('=', printf("\nSortieren der CDs nach...\n")-2);
 	printf("\n");
 
-	switch (getMenu(menuepunkte, 3))
+/*	switch (getMenu(menuepunkte, 3))
 	{
 		case 1:
 			QSort(CDData, countCDs, VerglTitel, r);
@@ -179,7 +176,7 @@ void sortCDs()
 		case 3:
 			QSort(CDData, countCDs, VerglLieder, r);
 			break;
-	}
+	}*/
 
 	//listCDs();
 }

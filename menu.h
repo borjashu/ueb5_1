@@ -4,4 +4,4 @@
 /**************************************************
  *  Gibt das Titel und Menue Punkte aus aus       *
 **************************************************/
-int getMenu (int mpunktezahl,char titel[],const char **mpunkte);
+int getMenu (int mpunktezahl,const char **mpunkte);
