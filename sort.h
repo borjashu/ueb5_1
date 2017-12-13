@@ -8,7 +8,7 @@
  * Parameter: 2x TTeam Pointer
  * Ergebnis:
  * ****************************************************/
-//void Tausche(TTeam * A, TTeam * B);
+void Tausche(TTeam * A, TTeam * B);
 
 /*******************************************************
  * int partition
@@ -19,7 +19,7 @@
  *            in TTeam pointer in int r, int
  * Ergebnis: int
  * ****************************************************/
-//int partition(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), int r);
+int partition(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), int r);
 
 /*******************************************************
  * void qSort
@@ -28,7 +28,7 @@
  * Parameter:
  *
  * ****************************************************/
-//void qSort(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), int r);
+void qSort(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), int r);
 
 /*******************************************************
  * void QSort

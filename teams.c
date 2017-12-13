@@ -143,10 +143,22 @@ int out()
 
 }
 
+int VerglName(TTeam *A, TTeam *B,  int r)
+{
+	int i = 0;
+	char c;
+
+	while( (c = toupper(*(A->Name + i)) - toupper(*(B->Name + i)) ) == 0 && (*(A->Name + i) != '\0') )
+		i++;
+
+	if(r)
+		return c;
+	return c *-1;
+}
 
 void sortTeams()
 {
-   char * menuepunkte[] = {"Titel", "Erscheinungsjahr", "Anzahl der Lieder"};
+   char * menuepunkte[] = {"Name", "Trainer", "Spieler"};
 	char * richtung[] = {"Auf (0-9 / A-Z)", "Ab (9-0 / Z-A)"};
 	int  r = 0;
 
@@ -158,25 +170,26 @@ void sortTeams()
 		r = 1;
 
 
-	printLine('=', printf("\nSortieren der CDs nach...\n")-2);
+	printLine('=', printf("\nSortieren der Teams nach...\n")-2);
 	printf("\n");
 
-/*	switch (getMenu(menuepunkte, 3))
+	switch (getMenu(3,menuepunkte))
 	{
 		case 1:
-			QSort(CDData, countCDs, VerglTitel, r);
+			QSort(Teams, TeamCounter, VerglName, r);
 			if(r)
 				sort = 1;
 			break;
-		case 2:
+		/*case 2:
 			QSort(CDData, countCDs, VerglJahr, r);
 			if(r)
 				sort = 2;
 			break;
 		case 3:
 			QSort(CDData, countCDs, VerglLieder, r);
-			break;
-	}*/
+			break;*/
+	}
 
 	//listCDs();
 }
+

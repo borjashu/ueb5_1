@@ -17,3 +17,5 @@ void listTeam(int j);
 void listPlayer (int j,int i);
 
 void out();
+
+int VerglName(TTeam *A, TTeam *B, int r);
