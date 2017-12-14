@@ -156,6 +156,19 @@ int VerglName(TTeam *A, TTeam *B,  int r)
 	return c *-1;
 }
 
+/*int VerglTrain(TTeam * A, TTeam * B,  int r)
+{
+	int i = 0;
+	char c;
+
+	while( (c = toupper(*(A->Trainer + i)) - toupper(*(B->Trainer + i)) ) == 0 && (*(A->Trainer + i) != '\0') )
+		i++;
+
+	if(r)
+		return c;
+	return c *-1;
+}*/
+
 void sortTeams()
 {
    char * menuepunkte[] = {"Name", "Trainer", "Spieler"};
@@ -180,12 +193,12 @@ void sortTeams()
 			if(r)
 				sort = 1;
 			break;
-		/*case 2:
-			QSort(CDData, countCDs, VerglJahr, r);
+		case 2:
+			QSort(Teams, TeamCounter, VerglTrain, r);
 			if(r)
 				sort = 2;
 			break;
-		case 3:
+	/*	case 3:
 			QSort(CDData, countCDs, VerglLieder, r);
 			break;*/
 	}
