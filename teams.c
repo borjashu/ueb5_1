@@ -176,9 +176,9 @@ void sortPlayer()
 	int  r = 0;
 
 	printLine('=', printf("\nSortieren der Teams\n")-2);
-//	printf("\nIn welche Richtung soll Sortiert werden?\n");
 
-	int i=getMenu(2,"In welche Richtung soll Sortiert werden?", richtung);
+
+	int i=getMenu(2,"Sortieren der Teams\nIn welche Richtung soll Sortiert werden?", richtung);
 	if(i)
 		r = 1;
 
