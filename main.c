@@ -13,7 +13,6 @@
 
 int main()
 {
-   freeStruct();
    loadTeams();
 
    int choise;

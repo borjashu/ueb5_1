@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1513098012 source:/home/borja/info2/ueb4_2/database.c
+1513457446 source:/home/borja/info2/ueb4_2/database.c
 	<stdio.h>
 	"datastructure.h"
 
@@ -20,7 +20,7 @@
 
 1511961617 /home/borja/info2/ueb4_2/tools.h
 
-1513456739 source:/home/borja/info2/ueb4_2/teams.c
+1513456935 source:/home/borja/info2/ueb4_2/teams.c
 	"datastructure.h"
 	<stdio.h>
 	<stdlib.h>
@@ -34,7 +34,7 @@
 	"tools.h"
 	"datastructure.h"
 
-1513456396 source:/home/borja/info2/ueb4_2/main.c
+1513457446 source:/home/borja/info2/ueb4_2/main.c
 	<stdio.h>
 	<stdlib.h>
 	"datastructure.h"

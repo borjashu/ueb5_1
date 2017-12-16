@@ -172,7 +172,7 @@ int loadTeams()
 			while(*Zeilenanfang=='	')
 				Zeilenanfang++;
 
-			printf("%s\n", Zeilenanfang);
+			//printf("%s\n", Zeilenanfang);
 
 			if(feof(Datei))
 			{
@@ -272,7 +272,7 @@ int loadTeams()
 		//разложить на элементы
 	}
 
-	waitForEnter();
+	//waitForEnter();
 	return 0;
 }
 

@@ -171,7 +171,7 @@ int VerglName(TTeam *A, TTeam *B,  int r)
 
 void sortPlayer()
 {
-   char * menuepunkte[] = {"Name", "Geburtsdatum", " Trikotn.","Tore"};
+   char * menuepunkte[] = {"Name", "Geburtsdatum", "Trikotn.","Tore"};
 	char * richtung[] = {"Auf (0-9 / A-Z)", "Ab (9-0 / Z-A)"};
 	int  r = 0;
 
@@ -186,7 +186,7 @@ void sortPlayer()
 	printLine('=', printf("\nSortieren der Teams nach...\n")-2);
 	printf("\n");
 
-	switch (getMenu(3,menuepunkte))
+	switch (getMenu(4,"Sortieren nach",menuepunkte))
 	{
 		case 1:
 			QSort(Teams, TeamCounter, VerglName, r);
