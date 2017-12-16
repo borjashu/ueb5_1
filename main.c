@@ -25,7 +25,7 @@ int main()
    do
    {
       printf("Mannschaften-Verwaltung Beta");
-      choise = getMenu(mpunktezahl,mpunkte);
+      choise = getMenu(mpunktezahl,"Mannschaften-Verwaltung Beta",mpunkte);
 
       switch(choise)
       {
@@ -44,7 +44,7 @@ int main()
          case 5:searchPlayer();
          break;
 
-         case 6: sortTeams();
+         case 6: sortPlayer();
          break;
 
          case 7: listTeams();
