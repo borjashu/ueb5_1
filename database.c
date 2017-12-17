@@ -77,8 +77,8 @@ void saveTeam(int TeamNr,FILE* Datei)
 void savePlayers(int TeamNr,FILE* Datei)
 {
 	int i;
-	for(i = Teams[TeamNr].Playernumber; i > 0; i--)
-		savePlayer(i - 1,TeamNr,Datei);
+	for(i =0 ; i < Teams[TeamNr].Playernumber; i++)
+		savePlayer(i ,TeamNr,Datei);
 }
 
 /***************************************************************************

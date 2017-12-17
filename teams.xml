@@ -4,10 +4,9 @@
  <Trainer>Jupp Heynckes</Trainer>
  <Playernumber>6</Playernumber>
   <Player>
-   <Name>Max Mustermann</Name>
-   <TricotNr>99</TricotNr>
+   <TricotNr>33927760</TricotNr>
    <Goals>0</Goals>
-   <Birthday>31.12.2000</Birthday>
+   <Birthday>06.00.33927792</Birthday>
   </Player>
   <Player>
    <Name>Christian Fruechtl</Name>
@@ -43,13 +42,11 @@
 
 
  <Team>
- <Name>RB Leipzig</Name>
  <Playernumber>2</Playernumber>
   <Player>
-   <Name>Peter Gulacsi</Name>
-   <TricotNr>32</TricotNr>
+   <Name>RB Leipzig</Name>
    <Goals>0</Goals>
-   <Birthday>06.05.1990</Birthday>
+   <Birthday>02.00.   0</Birthday>
   </Player>
   <Player>
    <Name>Timo Werner</Name>
@@ -61,14 +58,12 @@
 
 
  <Team>
- <Name>Musterteam</Name>
  <Trainer>TestTrainer</Trainer>
  <Playernumber>2</Playernumber>
   <Player>
-   <Name>TestSpieler1</Name>
-   <TricotNr>11</TricotNr>
+   <Name>Musterteam</Name>
    <Goals>0</Goals>
-   <Birthday>17.07.1990</Birthday>
+   <Birthday>02.00.33928080</Birthday>
   </Player>
   <Player>
    <Name>Testspieler2</Name>
@@ -80,14 +75,12 @@
 
 
  <Team>
- <Name>Musterteam2</Name>
  <Trainer>Muster Trainer</Trainer>
  <Playernumber>2</Playernumber>
   <Player>
-   <Name>Muster Spieler2</Name>
-   <TricotNr>21</TricotNr>
+   <Name>Musterteam2</Name>
    <Goals>0</Goals>
-   <Birthday>00.00.   0</Birthday>
+   <Birthday>02.00.33928176</Birthday>
   </Player>
   <Player>
    <Name>Muster Spieler1</Name>
@@ -99,14 +92,12 @@
 
 
  <Team>
- <Name>Hertha BSC</Name>
  <Trainer>Pal Dardai</Trainer>
  <Playernumber>2</Playernumber>
   <Player>
-   <Name>Thomas Kraft</Name>
-   <TricotNr>1</TricotNr>
+   <Name>Hertha BSC</Name>
    <Goals>0</Goals>
-   <Birthday>03.03.1983</Birthday>
+   <Birthday>02.00.33928272</Birthday>
   </Player>
   <Player>
    <Name>Fabian Lustenberger</Name>
