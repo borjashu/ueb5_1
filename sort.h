@@ -5,21 +5,21 @@
  * void Tausche
  *
  * Funktion: Tauschen von zwei Strings
- * Parameter: 2x TTeam Pointer
+ * Parameter: 2x TPlayer Pointer
  * Ergebnis:
  * ****************************************************/
-void Tausche(TTeam * A, TTeam * B);
+void Tausche(TPlayer * A, TPlayer * B);
 
 /*******************************************************
  * int partition
  *
  * Funktion: durchsuchen nach größenunterschieden in
  *           TextArray und vertauschen
- * Parameter: TTeam pointer, int, int, int Fkt TTeam pointer
- *            in TTeam pointer in int r, int
+ * Parameter: TPlayer pointer, int, int, int Fkt TPlayer pointer
+ *            in TPlayer pointer in int r, int
  * Ergebnis: int
  * ****************************************************/
-int partition(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), int r);
+int partition(TPlayer * A, int ui, int oi, int (*Fkt)(TPlayer *, TPlayer *, int r), int r);
 
 /*******************************************************
  * void qSort
@@ -28,7 +28,7 @@ int partition(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), in
  * Parameter:
  *
  * ****************************************************/
-void qSort(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), int r);
+void qSort(TPlayer * A, int ui, int oi, int (*Fkt)(TPlayer *, TPlayer *, int r), int r);
 
 /*******************************************************
  * void QSort
@@ -37,7 +37,7 @@ void qSort(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), int r
  * Parameter:
  *
  * ****************************************************/
-void QSort(TTeam * A, int Anz, int (*Fkt)(TTeam *, TTeam *, int r), int r);
+void QSort(TPlayer * A, int Anz, int (*Fkt)(TPlayer *, TPlayer *, int r), int r);
 
 
 #endif // SORT_H_INCLUDED

@@ -9,6 +9,7 @@ int TeamCounter = 0;
 int sort = 0;
 TTeam Teams[100];
 
+
 /***************************************************************************
 *  createTeam
 *  Speichert Laegt eine Manschaft an
@@ -143,12 +144,12 @@ int out()
 
 }
 
-int VerglName(TTeam *A, TTeam *B,  int r)
+int VerglName(TPlayer *A, TPlayer *B,  int r)
 {
 	int i = 0;
 	char c;
 
-	while( (c = toupper(*(A->Name + i)) - toupper(*(B->Name + i)) ) == 0 && (*(A->Name + i) != '\0') )
+	while( (c = toupper(*(A->Name + i)) - toupper(*(B->Name + i)) ) == 0 && (*(A->Name + i) != '\0') )//тут хуйня
 		i++;
 
 	if(r)
@@ -189,7 +190,7 @@ void sortPlayer()
 	switch (getMenu(4,"Sortieren nach",menuepunkte))
 	{
 		case 1:
-			QSort(Teams, TeamCounter, VerglName, r);
+			QSort(Teams->Player, Teams->Playernumber, VerglName, r);
 			if(r)
 				sort = 1;
 			break;

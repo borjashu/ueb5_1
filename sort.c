@@ -7,7 +7,7 @@
 
 
 
-void qSort(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), int r)
+void qSort(TPlayer * A, int ui, int oi, int (*Fkt)(TPlayer *, TPlayer *, int r), int r)
 {
 	int idx;
 
@@ -18,13 +18,13 @@ void qSort(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), int r
 	qSort(A, idx + 1, oi, Fkt, r);			// ruft sich selbst auf
 }
 
-void QSort(TTeam * A, int Anz, int (*Fkt)(TTeam *, TTeam *, int r), int r)
+void QSort(TPlayer * A, int Anz, int (*Fkt)(TPlayer *, TPlayer *, int r), int r)
 {
 	qSort(A, 0, Anz - 1, Fkt, r);
 }
 
 
-int partition(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), int r)
+int partition(TPlayer * A, int ui, int oi, int (*Fkt)(TPlayer *, TPlayer *, int r), int r)
 {
 	int i = ui,
        j = oi,
@@ -51,11 +51,11 @@ int partition(TTeam * A, int ui, int oi, int (*Fkt)(TTeam *, TTeam *, int r), in
 }
 
 
-void Tausche(TTeam * A, TTeam * B)
+void Tausche(TPlayer * A, TPlayer * B)
 {
-	TTeam temp;
+	TPlayer temp;
 
-	memcpy(&temp, A, sizeof(TTeam)); 	    	// speichert den ersten string in einem temporeren string
-	memcpy(A, B, sizeof(TTeam));		// speichert den zweiten string im ersten string
-	memcpy(B, &temp, sizeof(TTeam));		// speichert den temporären string im zweiten string
+	memcpy(&temp, A, sizeof(TPlayer)); 	    	// speichert den ersten string in einem temporeren string
+	memcpy(A, B, sizeof(TPlayer));		// speichert den zweiten string im ersten string
+	memcpy(B, &temp, sizeof(TPlayer));		// speichert den temporären string im zweiten string
 }

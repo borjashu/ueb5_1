@@ -20,7 +20,7 @@
 
 1511961617 /home/borja/info2/ueb4_2/tools.h
 
-1513456935 source:/home/borja/info2/ueb4_2/teams.c
+1513468161 source:/home/borja/info2/ueb4_2/teams.c
 	"datastructure.h"
 	<stdio.h>
 	<stdlib.h>
@@ -46,13 +46,13 @@
 
 1511990273 /home/borja/info2/ueb4_2/database.h
 
-1513192983 /home/borja/info2/ueb4_2/teams.h
+1513468147 /home/borja/info2/ueb4_2/teams.h
 
 1513456370 /home/borja/info2/ueb4_2/menu.h
 	<stdio.h>
 	"datastructure.h"
 
-1513111656 source:/home/borja/info2/ueb4_2/sort.c
+1513467334 source:/home/borja/info2/ueb4_2/sort.c
 	<stdio.h>
 	<string.h>
 	"datastructure.h"
@@ -60,5 +60,5 @@
 	"sort.h"
 	"teams.h"
 
-1513191853 /home/borja/info2/ueb4_2/sort.h
+1513467390 /home/borja/info2/ueb4_2/sort.h
 
