@@ -155,11 +155,11 @@ void printDate(int* Number,TDate* Date)
 {
    if(Date->Day == 0)
    {
-      printf("%i)\n",*Number);
+      printf("%i)",*Number);
    }
    else
    {
-      printf("%i; *%02i.%02i.%04i)\n",*Number, Date->Day, Date->Month, Date->Year);
+      printf("%i; *%02i.%02i.%04i)",*Number, Date->Day, Date->Month, Date->Year);
    }
 
 }

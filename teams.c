@@ -133,6 +133,12 @@ void listPlayer (int j ,int i)
 {
    printf("%20i. %s (",i+1,Teams[j].Player[i].Name);
    printDate(&Teams[j].Player[i].Number,&Teams[j].Player[i].Bdate);
+
+   if(Teams[j].Player[i].Number,&Teams[j].Player[i].Goal == 1)
+      printf("(%d Tor)\n",Teams[j].Player[i].Goal);
+
+   else
+       printf("(%d Tore)\n",Teams[j].Player[i].Goal);
 }
 
 
