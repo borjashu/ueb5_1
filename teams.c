@@ -143,36 +143,30 @@ int out()
     printf("out\n");
 
 }
-
+//********************************************************************************************************
 int VerglName(TPlayer *A, TPlayer *B,  int r)
 {
 	int i = 0;
 	char c;
 
-	while( (c = toupper(*(A->Name + i)) - toupper(*(B->Name + i)) ) == 0 && (*(A->Name + i) != '\0') )//тут хуйня
+	while( (c = toupper(*(A->Name + i)) - toupper(*(B->Name + i)) ) == 0 && (*(A->Name + i) != '\0') )
 		i++;
 
-	if(r)
-		return c;
+
 	return c *-1;
 }
-
-/*int VerglTrain(TTeam * A, TTeam * B,  int r)
+//********************************************************************************************************
+int Verglnr(TPlayer * A, TPlayer * B, int r)
 {
-	int i = 0;
-	char c;
-
-	while( (c = toupper(*(A->Trainer + i)) - toupper(*(B->Trainer + i)) ) == 0 && (*(A->Trainer + i) != '\0') )
-		i++;
-
 	if(r)
-		return c;
-	return c *-1;
-}*/
+		return( A->Number- B->Number);
+	return( B->Number - A->Number);
+}
+//********************************************************************************************************
 
 void sortPlayer()
 {
-   char * menuepunkte[] = {"Name", "Geburtsdatum", "Trikotn.","Tore"};
+   char * menuepunkte[] = {"Name","Trikotn.", "Geburtsdatum","Tore"};
 	char * richtung[] = {"Auf (0-9 / A-Z)", "Ab (9-0 / Z-A)"};
 	int  r = 0;
 
@@ -181,7 +175,7 @@ void sortPlayer()
 
 	int i=getMenu(2,"Sortieren der Teams\nIn welche Richtung soll Sortiert werden?", richtung);
 	if(i)
-		r = 1;
+		r = i;
 
 
 	printLine('=', printf("\nSortieren der Teams nach...\n")-2);
@@ -191,15 +185,12 @@ void sortPlayer()
 	{
 		case 1:
 			QSort(Teams->Player, Teams->Playernumber, VerglName, r);
-			if(r)
-				sort = 1;
 			break;
-		/*case 2:
-			QSort(Teams, TeamCounter, VerglTrain, r);
-			if(r)
-				sort = 2;
-			break;
-		case 3:
+
+		case 2:
+			QSort(Teams->Player, Teams->Playernumber, Verglnr, r);
+         break;
+	/*	case 3:
 			QSort(CDData, countCDs, VerglLieder, r);
 			break;*/
 	}
