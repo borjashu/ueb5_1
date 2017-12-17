@@ -184,6 +184,45 @@ int Verglgoal(TPlayer * A, TPlayer * B, int r)
 }
 //********************************************************************************************************
 
+int Vergldate(TPlayer * A, TPlayer * B, int r)
+{
+
+   if( A->Bdate.Year == B->Bdate.Year)
+   {
+      if( A->Bdate.Month == B->Bdate.Month)
+      {
+         if( A->Bdate.Day == B->Bdate.Day)
+            return VerglName( A,  B,   r);
+
+     else
+      {
+         if(r==1)
+            return(A->Bdate.Day- B->Bdate.Day);
+         return(B->Bdate.Day - A->Bdate.Day);
+      }
+
+
+
+      }
+
+	else
+   {
+      if(r==1)
+         return(A->Bdate.Month- B->Bdate.Month);
+      return(B->Bdate.Month - A->Bdate.Month);
+   }
+
+
+   }
+
+	else{
+      if(r==1)
+         return(A->Bdate.Year- B->Bdate.Year);
+      return(B->Bdate.Year - A->Bdate.Year);
+      }
+}
+//********************************************************************************************************
+
 void sortPlayer()
 {
    char * menuepunkte[] = {"Name","Trikotn.", "Tore","Geburtsdatum"};
@@ -215,6 +254,11 @@ void sortPlayer()
 		case 3:
 		for(i = 0; i <=TeamCounter;i++)
 			QSort(Teams[i].Player, Teams[i].Playernumber, Verglgoal, r);
+			break;
+
+      case 4:
+		for(i = 0; i <=TeamCounter;i++)
+			QSort(Teams[i].Player, Teams[i].Playernumber, Vergldate, r);
 			break;
 	}
 

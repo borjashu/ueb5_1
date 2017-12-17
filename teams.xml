@@ -4,6 +4,12 @@
  <Trainer>Jupp Heynckes</Trainer>
  <Playernumber>6</Playernumber>
   <Player>
+   <Name>Manuel Neuer</Name>
+   <TricotNr>39</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>27.03.1986</Birthday>
+  </Player>
+  <Player>
    <Name>ARobert Lewandowski</Name>
    <TricotNr>9</TricotNr>
    <Goals>2</Goals>
@@ -28,12 +34,6 @@
    <Birthday>28.01.2000</Birthday>
   </Player>
   <Player>
-   <Name>Manuel Neuer</Name>
-   <TricotNr>39</TricotNr>
-   <Goals>0</Goals>
-   <Birthday>27.03.1986</Birthday>
-  </Player>
-  <Player>
    <Name>Max Mustermann</Name>
    <TricotNr>99</TricotNr>
    <Goals>4</Goals>
@@ -46,16 +46,16 @@
  <Name>RB Leipzig</Name>
  <Playernumber>2</Playernumber>
   <Player>
-   <Name>Timo Werner</Name>
-   <TricotNr>94</TricotNr>
-   <Goals>0</Goals>
-   <Birthday>06.03.1996</Birthday>
-  </Player>
-  <Player>
    <Name>Peter Gulacsi</Name>
    <TricotNr>32</TricotNr>
    <Goals>0</Goals>
    <Birthday>06.05.1990</Birthday>
+  </Player>
+  <Player>
+   <Name>Timo Werner</Name>
+   <TricotNr>94</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>06.03.1996</Birthday>
   </Player>
  </Team>
 
@@ -65,16 +65,16 @@
  <Trainer>TestTrainer</Trainer>
  <Playernumber>2</Playernumber>
   <Player>
-   <Name>Testspieler2</Name>
-   <TricotNr>17</TricotNr>
-   <Goals>0</Goals>
-   <Birthday>18.08.1991</Birthday>
-  </Player>
-  <Player>
    <Name>TestSpieler1</Name>
    <TricotNr>11</TricotNr>
    <Goals>0</Goals>
    <Birthday>17.07.1990</Birthday>
+  </Player>
+  <Player>
+   <Name>Testspieler2</Name>
+   <TricotNr>17</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>18.08.1991</Birthday>
   </Player>
  </Team>
 
@@ -113,6 +113,31 @@
    <TricotNr>4</TricotNr>
    <Goals>0</Goals>
    <Birthday>04.04.1984</Birthday>
+  </Player>
+ </Team>
+
+
+ <Team>
+ <Name>Date Compare</Name>
+ <Trainer>Chronos</Trainer>
+ <Playernumber>3</Playernumber>
+  <Player>
+   <Name>As old as Older One</Name>
+   <TricotNr>9</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>17.07.1990</Birthday>
+  </Player>
+  <Player>
+   <Name>Older One</Name>
+   <TricotNr>94</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>17.07.1990</Birthday>
+  </Player>
+  <Player>
+   <Name>Younger One</Name>
+   <TricotNr>99</TricotNr>
+   <Goals>0</Goals>
+   <Birthday>16.07.1990</Birthday>
   </Player>
  </Team>
 

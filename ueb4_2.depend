@@ -5,7 +5,7 @@
 
 1511981079 /home/borja/info2/ueb4_2/datastructure.h
 
-1513518891 source:/home/borja/info2/ueb4_2/date_time.c
+1513519015 source:/home/borja/info2/ueb4_2/date_time.c
 	<stdio.h>
 	"date_time.h"
 
@@ -46,7 +46,7 @@
 
 1511990273 /home/borja/info2/ueb4_2/database.h
 
-1513515416 /home/borja/info2/ueb4_2/teams.h
+1513519364 /home/borja/info2/ueb4_2/teams.h
 
 1513456370 /home/borja/info2/ueb4_2/menu.h
 	<stdio.h>
