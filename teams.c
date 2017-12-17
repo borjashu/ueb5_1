@@ -141,9 +141,6 @@ void listPlayer (int j ,int i)
        printf("(%d Tore)\n",Teams[j].Player[i].Goal);
 }
 
-
-
-
 int out()
 {
     printf("out\n");
@@ -158,7 +155,7 @@ int VerglName(TPlayer *A, TPlayer *B,  int r)
 	while( (c = toupper(*(A->Name + i)) - toupper(*(B->Name + i)) ) == 0 && (*(A->Name + i) != '\0') )
 		i++;
 
-if(r==1)
+   if(r==1)
 		return c;
 	return c *-1;
 }
@@ -172,10 +169,9 @@ int Verglnr(TPlayer * A, TPlayer * B, int r)
 //********************************************************************************************************
 int Verglgoal(TPlayer * A, TPlayer * B, int r)
 {
+   if( A->Goal == B->Goal)
+      return VerglName( A,  B,   r);
 
-
-     if( A->Goal == B->Goal)
-         return VerglName( A,  B,   r);
 	else{
       if(r==1)
          return( A->Goal- B->Goal);
