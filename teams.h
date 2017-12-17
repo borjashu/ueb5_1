@@ -21,3 +21,5 @@ void out();
 int VerglName(TPlayer *A, TPlayer *B, int r);
 
 int Verglnr(TPlayer *A, TPlayer *B,  int r);
+
+int Verglgoal(TPlayer * A, TPlayer * B, int r);

@@ -164,10 +164,23 @@ int Verglnr(TPlayer * A, TPlayer * B, int r)
 	return( B->Number - A->Number);
 }
 //********************************************************************************************************
+int Verglgoal(TPlayer * A, TPlayer * B, int r)
+{
+
+
+     if( A->Goal == B->Goal)
+         return VerglName( A,  B,   r);
+	else{
+      if(r==1)
+         return( A->Goal- B->Goal);
+      return( B->Goal - A->Goal);
+      }
+}
+//********************************************************************************************************
 
 void sortPlayer()
 {
-   char * menuepunkte[] = {"Name","Trikotn.", "Geburtsdatum","Tore"};
+   char * menuepunkte[] = {"Name","Trikotn.", "Tore","Geburtsdatum"};
 	char * richtung[] = {"Auf (0-9 / A-Z)", "Ab (9-0 / Z-A)"};
 	int  r = 0;
 
@@ -193,11 +206,12 @@ void sortPlayer()
 		     for(i = 0; i <=TeamCounter;i++)
 			QSort(Teams[i].Player, Teams[i].Playernumber, Verglnr, r);
          break;
-	/*	case 3:
-			QSort(CDData, countCDs, VerglLieder, r);
-			break;*/
+		case 3:
+		for(i = 0; i <=TeamCounter;i++)
+			QSort(Teams[i].Player, Teams[i].Playernumber, Verglgoal, r);
+			break;
 	}
 
-	//listCDs();
+
 }
 

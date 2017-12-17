@@ -4,9 +4,9 @@
  <Trainer>Jupp Heynckes</Trainer>
  <Playernumber>6</Playernumber>
   <Player>
-   <Name>Robert Lewandowski</Name>
+   <Name>ARobert Lewandowski</Name>
    <TricotNr>9</TricotNr>
-   <Goals>0</Goals>
+   <Goals>2</Goals>
    <Birthday>21.08.1988</Birthday>
   </Player>
   <Player>
@@ -36,7 +36,7 @@
   <Player>
    <Name>Max Mustermann</Name>
    <TricotNr>99</TricotNr>
-   <Goals>0</Goals>
+   <Goals>4</Goals>
    <Birthday>31.12.2000</Birthday>
   </Player>
  </Team>
