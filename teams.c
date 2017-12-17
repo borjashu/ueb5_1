@@ -6,7 +6,7 @@
 #include "tools.h"
 
 int TeamCounter = 0;
-int sort = 0;
+int sort = 0,i;
 TTeam Teams[100];
 
 
@@ -184,11 +184,13 @@ void sortPlayer()
 	switch (getMenu(4,"Sortieren nach",menuepunkte))
 	{
 		case 1:
-			QSort(Teams->Player, Teams->Playernumber, VerglName, r);
+		   for(i = 0; i <=TeamCounter;i++)
+			QSort(Teams[i]->Player, Teams[i]->Playernumber, VerglName, r);
 			break;
 
 		case 2:
-			QSort(Teams->Player, Teams->Playernumber, Verglnr, r);
+		     for(i = 0; i <=TeamCounter;i++)
+			QSort(Teams[i].Player, Teams[i].Playernumber, Verglnr, r);
          break;
 	/*	case 3:
 			QSort(CDData, countCDs, VerglLieder, r);

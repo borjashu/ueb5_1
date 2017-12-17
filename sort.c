@@ -4,7 +4,7 @@
 #include "tools.h"
 #include "sort.h"
 #include "teams.h"
-
+int i;
 
 
 void qSort(TPlayer * A, int ui, int oi, int (*Fkt)(TPlayer *, TPlayer *, int r), int r)
@@ -20,7 +20,7 @@ void qSort(TPlayer * A, int ui, int oi, int (*Fkt)(TPlayer *, TPlayer *, int r),
 
 void QSort(TPlayer * A, int Anz, int (*Fkt)(TPlayer *, TPlayer *, int r), int r)
 {
-	qSort(A, 0, Anz - 1, Fkt, r);
+       qSort(A, 0, Anz - 1, Fkt, r);
 }
 
 
