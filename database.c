@@ -75,7 +75,7 @@ void saveTeam(int TeamNr,FILE* Datei)
 *  Ergebnis : void
 ****************************************************************************/
 void savePlayers(int TeamNr,FILE* Datei)
-{
+{//dfdf
 	int i;
 	for(i =0 ; i < Teams[TeamNr].Playernumber; i++)
 		savePlayer(i ,TeamNr,Datei);
