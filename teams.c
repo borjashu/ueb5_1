@@ -152,13 +152,14 @@ int VerglName(TPlayer *A, TPlayer *B,  int r)
 	while( (c = toupper(*(A->Name + i)) - toupper(*(B->Name + i)) ) == 0 && (*(A->Name + i) != '\0') )
 		i++;
 
-
+if(r==1)
+		return c;
 	return c *-1;
 }
 //********************************************************************************************************
 int Verglnr(TPlayer * A, TPlayer * B, int r)
 {
-	if(r)
+	if(r==1)
 		return( A->Number- B->Number);
 	return( B->Number - A->Number);
 }
@@ -185,7 +186,7 @@ void sortPlayer()
 	{
 		case 1:
 		   for(i = 0; i <=TeamCounter;i++)
-			QSort(Teams[i]->Player, Teams[i]->Playernumber, VerglName, r);
+			QSort(Teams[i].Player, Teams[i].Playernumber, VerglName, r);
 			break;
 
 		case 2:
